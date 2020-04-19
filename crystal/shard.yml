@@ -1,0 +1,17 @@
+name: zeromq-server
+version: 0.1.0
+
+authors:
+  - Jose Luis Salas <josacar@users.noreply.github.com>
+
+targets:
+  zeromq-server:
+    main: src/zeromq-server.cr
+
+dependencies:
+  zeromq:
+    github: crystal-community/zeromq-crystal
+
+crystal: 0.34.0
+
+license: MIT
