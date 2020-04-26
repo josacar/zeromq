@@ -24,8 +24,8 @@ requester_ruby = context_ruby.socket(ZMQ::REQ)
 requester_ruby.connect("tcp://localhost:5555")
 
 loop do
-  n = rand(3) + 1
-  m = rand(3) + 1
+  n = rand(4) + 1
+  m = rand(4) + 1
   request = {fn: "ack", m: m, n: n}
 
   reply = ''
