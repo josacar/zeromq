@@ -10,7 +10,9 @@ targets:
 
 dependencies:
   zeromq:
-    github: crystal-community/zeromq-crystal
+    # github: crystal-community/zeromq-crystal
+    github: josacar/zeromq-crystal
+    # path: ../../zeromq-crystal
 
 crystal: 0.34.0
 

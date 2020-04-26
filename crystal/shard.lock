@@ -1,6 +1,6 @@
 version: 1.0
 shards:
   zeromq:
-    github: crystal-community/zeromq-crystal
-    commit: 65bfe93ee5c0040a5d1b0760bf90509b0c8e28be
+    github: josacar/zeromq-crystal
+    commit: 8c182f903add46fdc56d4eb0566a50199aeaa4ac
 

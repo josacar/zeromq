@@ -1,4 +1,5 @@
 # require 'bundler/inline'
+require 'bundler/setup'
 
 # gemfile do
 #   source 'https://rubygems.org'
